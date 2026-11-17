@@ -1,0 +1,14 @@
+{
+  "version": "0.53",
+  "versionCode": 53,
+  "minSdk": 30,
+  "bytes": 78118824,
+  "sha256": "6ff0c8bcf43eab4a4bf806caeef0f499539436b4d7d1253affea9adc0ff4fa22",
+  "channel": "testing",
+  "parts": [
+    {
+      "url": "HvostPodKontrolem-0.53.apk",
+      "size": 78118824
+    }
+  ]
+}
