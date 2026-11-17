@@ -2,14 +2,14 @@
 
 Самостоятельный публичный сайт и архив Android-приложения.
 
-- Сайт: https://nicolenkoe.github.io/hvost-pod-kontrolem/
-- Версии APK: https://nicolenkoe.github.io/hvost-pod-kontrolem/versions/
+- Сайт: https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/
+- Версии APK: https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/versions/
 - Ветка разработки: https://chatgpt.com/local/01a1b372-1c96-72c5-81d3-8ce34306c06e
 - Инструкции и проверки: /testing/
 
 Перенесён из подпапки репозитория enduro-club-downloads без изменения APK. Размеры и SHA-256 сверены с versions.json. APK 0.53 — тестовый, 0.52 — экспериментальный; статус сборок не менялся.
 
-GitHub Pages публикует корень ветки main. Обновление сайта — коммит в main. Для выпуска обновляйте release.json, update.json, versions.json и ссылки на страницах, сохраняя старые имена APK неизменными. Подписывайте новые APK тем же ключом в исходном Android-проекте; ключи и исходники Android в этот репозиторий не переносились.
+GitHub Pages публикует сайт через GitHub Actions (.github/workflows/pages.yml). В Settings → Pages → Source выберите GitHub Actions. Обновление сайта — коммит в main. Для выпуска обновляйте release.json, update.json, versions.json и ссылки на страницах, сохраняя старые имена APK неизменными. Подписывайте новые APK тем же ключом в исходном Android-проекте; ключи и исходники Android в этот репозиторий не переносились.
 
 Старый сайт пока сохранён для существующих ссылок и установленных приложений. Сам перенос сайта не меняет адрес обновлений, встроенный в ранее выпущенные APK. При следующем выпуске Android-приложения настройте новый адрес в его исходном проекте и проверьте миграцию обновления.
 
