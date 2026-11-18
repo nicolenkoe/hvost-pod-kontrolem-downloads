@@ -1,1 +1,6 @@
 *.idsig
+*.jks
+*.keystore
+.env
+.env.*
+local.properties

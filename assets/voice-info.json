@@ -1,10 +1,9 @@
 {
+  "version": "0.58",
   "voice": "Ирина",
   "locale": "ru-RU",
+  "engine": "Piper neural",
   "female": true,
-  "synthesis": "Piper neural",
-  "audience": "release testing",
-  "version": "0.53",
-  "seconds": 83.11,
-  "videoSha256": "79ef2bfdbda5dc58b65f1be2dcd9e4faedd03a451766f1516d5f2abd6a2015e5"
+  "audience": "owner",
+  "physicalHardwareVideo": false
 }

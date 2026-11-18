@@ -1,8 +1,113 @@
 {
   "schemaVersion": 1,
-  "latest": 53,
+  "latest": 58,
   "latestStable": null,
   "releases": [
+    {
+      "version": "0.58",
+      "versionCode": 58,
+      "minimumAndroid": "11",
+      "abi": [
+        "arm64-v8a"
+      ],
+      "fileName": "HvostPodKontrolem-0.58.apk",
+      "bytes": 78204840,
+      "sha256": "d6381b19a7c81b1b3460076150068e8c2f35cf8064baf4c13d05a30334a6d91c",
+      "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.58.apk",
+      "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/versions/",
+      "guide": "assets/guide-0.58.mp4",
+      "audioGuide": "assets/guide-0.58.mp3",
+      "experimental": [
+        "smart-zone",
+        "bluetooth-servo"
+      ],
+      "channel": "testing",
+      "minSdk": 30
+    },
+    {
+      "version": "0.57",
+      "versionCode": 57,
+      "minimumAndroid": "11",
+      "abi": [
+        "arm64-v8a"
+      ],
+      "fileName": "HvostPodKontrolem-0.57.apk",
+      "bytes": 78204840,
+      "sha256": "cd3fbc955220fca4b30187b829130917d26a39f1ffefe350adaf88084fb65a7a",
+      "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.57.apk",
+      "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/testing/0.57.html",
+      "guide": "assets/guide-0.57.mp4",
+      "audioGuide": "assets/guide-0.57.mp3",
+      "experimental": [
+        "smart-zone",
+        "bluetooth-servo"
+      ],
+      "channel": "testing",
+      "minSdk": 30
+    },
+    {
+      "version": "0.56",
+      "versionCode": 56,
+      "minimumAndroid": "11",
+      "abi": [
+        "arm64-v8a"
+      ],
+      "fileName": "HvostPodKontrolem-0.56.apk",
+      "bytes": 78151592,
+      "sha256": "1a6fc69aaed93564a93a1a5e452b999b3c059623201099c92ccf47685da135fe",
+      "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.56.apk",
+      "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/testing/0.56.html",
+      "guide": "assets/guide-0.56.mp4",
+      "audioGuide": "assets/guide-0.56.mp3",
+      "experimental": [
+        "smart-zone",
+        "bluetooth-servo"
+      ],
+      "channel": "testing",
+      "minSdk": 30
+    },
+    {
+      "version": "0.55",
+      "versionCode": 55,
+      "minimumAndroid": "11",
+      "abi": [
+        "arm64-v8a"
+      ],
+      "fileName": "HvostPodKontrolem-0.55.apk",
+      "bytes": 78135208,
+      "sha256": "81f5149f383e991e04c9360dad79d8157eb95f7aa6990cfdab4fe8a4296957c5",
+      "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.55.apk",
+      "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/testing/0.55.html",
+      "guide": "assets/guide-0.55.mp4",
+      "audioGuide": "assets/guide-0.55.mp3",
+      "experimental": [
+        "smart-zone",
+        "bluetooth-servo"
+      ],
+      "channel": "testing",
+      "minSdk": 30
+    },
+    {
+      "version": "0.54",
+      "versionCode": 54,
+      "minimumAndroid": "11",
+      "abi": [
+        "arm64-v8a"
+      ],
+      "fileName": "HvostPodKontrolem-0.54.apk",
+      "bytes": 78135208,
+      "sha256": "789dab0aad7140381319b4a41eb2f6b2fe4d7e92952ae21cfa263ef828767666",
+      "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.54.apk",
+      "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/testing/0.54.html",
+      "guide": "assets/guide-0.54.mp4",
+      "audioGuide": "assets/guide-0.54.mp3",
+      "experimental": [
+        "smart-zone",
+        "bluetooth-servo"
+      ],
+      "channel": "experimental",
+      "minSdk": 30
+    },
     {
       "version": "0.53",
       "versionCode": 53,
@@ -14,7 +119,7 @@
       "bytes": 78118824,
       "sha256": "6ff0c8bcf43eab4a4bf806caeef0f499539436b4d7d1253affea9adc0ff4fa22",
       "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.53.apk",
-      "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/versions/",
+      "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/testing/0.53.html",
       "guide": "assets/guide-0.53.mp4",
       "audioGuide": "assets/guide-0.53.mp3",
       "experimental": [

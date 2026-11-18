@@ -27,6 +27,23 @@ jobs:
               assert file.stat().st_size==r['bytes'],file.name
               assert hashlib.sha256(file.read_bytes()).hexdigest()==r['sha256'],file.name
           PYAPK
+      - name: Validate release metadata and public-only files
+        run: |
+          python3 - <<'PYCHECK'
+          import pathlib,json,zipfile
+          root=pathlib.Path('.')
+          release=json.loads((root/'release.json').read_text());feed=json.loads((root/'update.json').read_text());catalog=json.loads((root/'versions.json').read_text())
+          assert release['versionCode']==feed['versionCode']==catalog['latest']
+          assert release['sha256']==feed['sha256'] and release['bytes']==feed['bytes']
+          assert feed['parts']==[{'url':release['fileName'],'size':release['bytes']}]
+          base='https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/'
+          for entry in catalog['releases']:assert entry['downloadUrl']==base+entry['fileName']
+          for p in root.rglob('*'):
+            if '.git' in p.parts:continue
+            assert p.suffix not in {'.java','.kt','.ino','.jks','.keystore'},p
+          for p in (root/'firmware').glob('*.zip'):
+            with zipfile.ZipFile(p) as z:assert not any(n.endswith(('.ino','.java','.kt','.jks','.keystore')) for n in z.namelist())
+          PYCHECK
       - uses: actions/configure-pages@v5
       - name: Prepare static files
         run: |
@@ -37,3 +54,9 @@ jobs:
           path: /tmp/hvost-site
       - uses: actions/deploy-pages@v4
         id: deploy
+      - name: Verify independent public release
+        run: python3 verify_public.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hvost-public-verification
+          path: public-verification.json
