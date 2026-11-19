@@ -21,6 +21,10 @@ def main():
  for page in ['','testing/','versions/']:
   text=read(page).decode();assert 'Хвост' in text
   assert 'enduro-club-downloads/hvost-pod-kontrolem/' not in text
+ firmware=release.get('firmware')
+ if firmware:
+  binary=read(firmware['fileName']);assert hashlib.sha256(binary).hexdigest()==firmware['sha256']
+  archive='firmware/Hvost-SG90-'+firmware['version']+'.zip';assert read(archive)==(ROOT/archive).read_bytes()
  for ext in ['mp4','mp3','vtt']:
   name='assets/guide-'+release['version']+'.'+ext;assert read(name)==(ROOT/name).read_bytes()
  voice=json.loads(read('assets/voice-info.json'));assert voice['female'] and voice['version']==release['version']

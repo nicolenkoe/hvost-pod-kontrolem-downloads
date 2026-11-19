@@ -1,14 +1,14 @@
 {
-  "version": "0.60",
-  "versionCode": 60,
+  "version": "0.61",
+  "versionCode": 61,
   "minSdk": 30,
-  "bytes": 78204840,
-  "sha256": "b83f083f14978567391f1cfa61506a7bfaf2af4017749f6ae1fda164c848ce9d",
+  "bytes": 78221280,
+  "sha256": "ca30a0dcf1165a87e9c760a3706c8c2593fb425f25819efccc27e70f3462ca26",
   "channel": "testing",
   "parts": [
     {
-      "url": "HvostPodKontrolem-0.60.apk",
-      "size": 78204840
+      "url": "HvostPodKontrolem-0.61.apk",
+      "size": 78221280
     }
   ]
 }
