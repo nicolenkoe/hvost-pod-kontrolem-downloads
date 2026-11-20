@@ -19,11 +19,13 @@
   "channel": "testing",
   "minSdk": 30,
   "firmware": {
-    "version": "0.61",
-    "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/firmware/Hvost-SG90-0.61.zip",
-    "fileName": "firmware/Hvost-SG90-0.61-ESP32C3.bin",
-    "sha256": "d4b02c188e1a6b0657450ded2c9bc4feefe86bde8a8354d83dd3884f45236e21",
+    "version": "0.62",
+    "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/firmware/Hvost-SG90-0.62.zip",
+    "fileName": "firmware/Hvost-SG90-0.62-ESP32C3.bin",
+    "sha256": "a0b48c25a993d0ffc6f396e6f303d7d7e7f4a0e820a2d85112c98afae13773b5",
     "chainGpio": 4,
-    "treatGpio": 5
+    "treatGpio": 5,
+    "pairingPin": "000000",
+    "compatibleApp": "0.61"
   }
 }

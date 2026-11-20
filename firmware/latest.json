@@ -1,0 +1,10 @@
+{
+  "version": "0.62",
+  "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/firmware/Hvost-SG90-0.62.zip",
+  "fileName": "firmware/Hvost-SG90-0.62-ESP32C3.bin",
+  "sha256": "a0b48c25a993d0ffc6f396e6f303d7d7e7f4a0e820a2d85112c98afae13773b5",
+  "chainGpio": 4,
+  "treatGpio": 5,
+  "pairingPin": "000000",
+  "compatibleApp": "0.61"
+}
