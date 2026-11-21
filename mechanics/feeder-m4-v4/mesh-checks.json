@@ -1,0 +1,330 @@
+{
+  "01_ROTOR_HOPPER_M4": {
+    "watertight": true,
+    "volume_mm3": 203582.18227093844,
+    "bounds": [
+      [
+        -56.0,
+        -56.0,
+        0.0
+      ],
+      [
+        56.0,
+        56.0,
+        22.0
+      ]
+    ],
+    "faces": 1052
+  },
+  "02_FLOOR_M4": {
+    "watertight": true,
+    "volume_mm3": 65062.78640971133,
+    "bounds": [
+      [
+        -65.0,
+        -65.0,
+        0.0
+      ],
+      [
+        65.0,
+        65.0,
+        4.0
+      ]
+    ],
+    "faces": 2108
+  },
+  "03_ROOF_HOPPER_M4": {
+    "watertight": true,
+    "volume_mm3": 62817.41308739516,
+    "bounds": [
+      [
+        -65.0,
+        -65.0,
+        0.0
+      ],
+      [
+        65.0,
+        65.0,
+        4.0
+      ]
+    ],
+    "faces": 2624
+  },
+  "04_HOPPER": {
+    "watertight": true,
+    "volume_mm3": 36934.54839075952,
+    "bounds": [
+      [
+        -38.0,
+        -35.0,
+        0.0
+      ],
+      [
+        38.0,
+        35.0,
+        70.0999984741211
+      ]
+    ],
+    "faces": 60
+  },
+  "05_LEAF_HOLDER_M4": {
+    "watertight": true,
+    "volume_mm3": 8443.712492702003,
+    "bounds": [
+      [
+        9.0,
+        16.0,
+        0.0
+      ],
+      [
+        51.0,
+        40.0,
+        30.0
+      ]
+    ],
+    "faces": 1656
+  },
+  "06_CLAMP_CAP_M4": {
+    "watertight": true,
+    "volume_mm3": 1108.9146213084687,
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        40.0,
+        10.0,
+        3.0
+      ]
+    ],
+    "faces": 532
+  },
+  "07_SOFT_LEAF_TPU_ONLY_M4": {
+    "watertight": true,
+    "volume_mm3": 1226.6210273460554,
+    "bounds": [
+      [
+        -12.0,
+        0.0,
+        0.0
+      ],
+      [
+        12.0,
+        44.0,
+        1.1999998092651367
+      ]
+    ],
+    "faces": 788
+  },
+  "08_HOPPER_LID": {
+    "watertight": true,
+    "volume_mm3": 19511.273513317108,
+    "bounds": [
+      [
+        -39.5,
+        -36.5,
+        0.0
+      ],
+      [
+        39.5,
+        36.5,
+        7.0
+      ]
+    ],
+    "faces": 44
+  },
+  "09_LEG_M4": {
+    "watertight": true,
+    "volume_mm3": 3793.9687136901193,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        60.0
+      ]
+    ],
+    "faces": 512
+  },
+  "10_SPACER_M4": {
+    "watertight": true,
+    "volume_mm3": 1479.647774217743,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        23.399999618530273
+      ]
+    ],
+    "faces": 512
+  },
+  "11_SERVO_MOUNT_M4": {
+    "watertight": true,
+    "volume_mm3": 20345.552860904805,
+    "bounds": [
+      [
+        -29.0,
+        -17.0,
+        0.0
+      ],
+      [
+        29.0,
+        17.0,
+        32.0
+      ]
+    ],
+    "faces": 588
+  },
+  "12_MANUAL_ROTOR_6_M4": {
+    "watertight": true,
+    "volume_mm3": 162193.2606169162,
+    "bounds": [
+      [
+        -56.0,
+        -56.0,
+        0.0
+      ],
+      [
+        56.0,
+        56.0,
+        22.0
+      ]
+    ],
+    "faces": 4064
+  },
+  "13_MANUAL_ROOF_M4": {
+    "watertight": true,
+    "volume_mm3": 36990.79999278404,
+    "bounds": [
+      [
+        -65.0,
+        -65.0,
+        0.0
+      ],
+      [
+        65.0,
+        65.0,
+        4.0
+      ]
+    ],
+    "faces": 2352
+  },
+  "14_MANUAL_LID_M4": {
+    "watertight": true,
+    "volume_mm3": 56957.105650679674,
+    "bounds": [
+      [
+        -65.0,
+        -55.0,
+        0.0
+      ],
+      [
+        65.0,
+        55.0,
+        4.0
+      ]
+    ],
+    "faces": 1052
+  },
+  "15_LOADING_PLUG": {
+    "watertight": true,
+    "volume_mm3": 3564.2475885620247,
+    "bounds": [
+      [
+        -14.0,
+        -12.0,
+        0.0
+      ],
+      [
+        24.0,
+        12.0,
+        5.799999237060547
+      ]
+    ],
+    "faces": 28
+  },
+  "16_M4_HAND_KNOB": {
+    "watertight": true,
+    "volume_mm3": 2812.531856594165,
+    "bounds": [
+      [
+        -11.0,
+        -11.0,
+        0.0
+      ],
+      [
+        11.0,
+        11.0,
+        8.0
+      ]
+    ],
+    "faces": 536
+  },
+  "90_HOPPER_ASSEMBLY_VIEW_ONLY": {
+    "watertight": false,
+    "volume_mm3": 439875.82319964096,
+    "bounds": [
+      [
+        -65.0,
+        -65.0,
+        0.0
+      ],
+      [
+        69.5,
+        65.0,
+        168.6999969482422
+      ]
+    ],
+    "faces": 10960
+  },
+  "91_MANUAL_ASSEMBLY_VIEW_ONLY": {
+    "watertight": false,
+    "volume_mm3": 362643.9732631747,
+    "bounds": [
+      [
+        -65.0,
+        -65.0,
+        0.0
+      ],
+      [
+        65.0,
+        65.0,
+        95.4000015258789
+      ]
+    ],
+    "faces": 11628
+  },
+  "rigid_collision_samples_deg": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    120,
+    180,
+    240,
+    300,
+    330
+  ],
+  "hardware_clearance_note": "Six mounting bolts require countersunk heads flush with plate; actual hardware/servo coupling not physically tested.",
+  "countersinks": {
+    "diameter_mm": 9.2,
+    "throat_mm": 4.4,
+    "depth_mm": 2.4,
+    "floor_top_count": 2,
+    "hopper_roof_bottom_count": 4
+  }
+}
