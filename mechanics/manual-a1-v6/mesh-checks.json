@@ -1,0 +1,235 @@
+{
+  "01_BASE_WITH_SERVO_CRADLE": {
+    "watertight": true,
+    "volume_mm3": 82920.83060778001,
+    "bounds": [
+      [
+        -60.0,
+        -60.0,
+        0.0
+      ],
+      [
+        60.0,
+        60.0,
+        36.0
+      ]
+    ],
+    "faces": 4284
+  },
+  "02_TOP_RING": {
+    "watertight": true,
+    "volume_mm3": 26990.799992784043,
+    "bounds": [
+      [
+        -60.0,
+        -60.0,
+        0.0
+      ],
+      [
+        60.0,
+        60.0,
+        4.0
+      ]
+    ],
+    "faces": 2352
+  },
+  "03_SECURED_LID": {
+    "watertight": true,
+    "volume_mm3": 48582.835118880495,
+    "bounds": [
+      [
+        -60.0,
+        -52.0,
+        0.0
+      ],
+      [
+        60.0,
+        52.0,
+        4.0
+      ]
+    ],
+    "faces": 1644
+  },
+  "04_SIX_POCKET_DRUM": {
+    "watertight": true,
+    "volume_mm3": 162193.2606169162,
+    "bounds": [
+      [
+        -56.0,
+        -56.0,
+        0.0
+      ],
+      [
+        56.0,
+        56.0,
+        22.0
+      ]
+    ],
+    "faces": 4064
+  },
+  "05_SPACER_M4": {
+    "watertight": true,
+    "volume_mm3": 1479.647774217743,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        23.399999618530273
+      ]
+    ],
+    "faces": 512
+  },
+  "06_M4_KNOB": {
+    "watertight": true,
+    "volume_mm3": 1382.2658046930974,
+    "bounds": [
+      [
+        -8.0,
+        -8.0,
+        0.0
+      ],
+      [
+        8.0,
+        8.0,
+        8.0
+      ]
+    ],
+    "faces": 536
+  },
+  "07_LOADING_PLUG": {
+    "watertight": true,
+    "volume_mm3": 3564.2475885620247,
+    "bounds": [
+      [
+        -14.0,
+        -12.0,
+        0.0
+      ],
+      [
+        24.0,
+        12.0,
+        5.799999237060547
+      ]
+    ],
+    "faces": 28
+  },
+  "08_TABLE_CLAMP": {
+    "watertight": true,
+    "volume_mm3": 101621.0243254805,
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        64.0,
+        66.0,
+        72.0
+      ]
+    ],
+    "faces": 1164
+  },
+  "09_PRESSURE_PAD": {
+    "watertight": true,
+    "volume_mm3": 569.5971437737608,
+    "bounds": [
+      [
+        -7.0,
+        -7.0,
+        0.0
+      ],
+      [
+        7.0,
+        7.0,
+        4.0
+      ]
+    ],
+    "faces": 508
+  },
+  "10_ELECTRONICS_LID": {
+    "watertight": true,
+    "volume_mm3": 3100.9146178349747,
+    "bounds": [
+      [
+        0.0,
+        -3.0,
+        0.0
+      ],
+      [
+        38.0,
+        0.0,
+        28.0
+      ]
+    ],
+    "faces": 532
+  },
+  "90_ASSEMBLY_VIEW_ONLY": {
+    "watertight": false,
+    "volume_mm3": 436857.31974082935,
+    "bounds": [
+      [
+        -60.0,
+        -60.0,
+        -6.0
+      ],
+      [
+        104.0,
+        60.0,
+        103.4000015258789
+      ]
+    ],
+    "faces": 15596
+  },
+  "collision_angles_deg": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    180,
+    240,
+    300,
+    330
+  ],
+  "table_thickness_samples_mm": [
+    10,
+    25,
+    45
+  ],
+  "physical_tested": false,
+  "electronics": {
+    "pcb_nominal_mm": [
+      22.5,
+      18
+    ],
+    "pcb_components_face": "toward_bottom_cover",
+    "pcb_right_boss_clearance_mm": 1.3,
+    "usb_window_mm": [
+      14,
+      8
+    ],
+    "last_case_revision": "boss_x_-24.5",
+    "case_changes_do_not_affect_rotor_or_table_regions": true,
+    "pcb_bounds_mm": [
+      [
+        -51,
+        20.75,
+        -8.6
+      ],
+      [
+        -33,
+        43.25,
+        -7
+      ]
+    ],
+    "usb_direction": "+Y rear side; use right-angle cable toward +X/table",
+    "external_case_bounds_unchanged": true
+  },
+  "case_revision": "V6_rear_USB_routed_to_table"
+}
