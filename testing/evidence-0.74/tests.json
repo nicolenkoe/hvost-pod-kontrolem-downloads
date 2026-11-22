@@ -1,0 +1,34 @@
+{
+  "version": "0.74",
+  "tests": [
+    {
+      "suite": "ru.dogwatch.FullscreenTimestamp74QaTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.PlayerFullScreenTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.PlayerDate61UiTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.AnimalVisibility73QaTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "total": 24,
+  "assembleRelease": "passed",
+  "lintRelease": "passed",
+  "independentReview": "FullscreenTimestamp74QaTest5, metadata/load/switch/timezone/invalid/narrow andland1.5; previousDate3 includes280dpfont2; player andvisibility regression",
+  "physicalDeviceTested": false
+}
