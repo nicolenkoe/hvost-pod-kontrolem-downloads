@@ -1,0 +1,7 @@
+saved-dog-event-original.mp4 and frames in02-05-clip-content.png contain a3-second excerpt (source seconds1–4), resized/padded and recorded by Android virtual camera, from:
+Sink swimming exercise during coronavirus — Rhododendrites
+https://commons.wikimedia.org/wiki/File:Sink_swimming_exercise_during_coronavirus.webm
+Original and this adapted video/frame excerpt licensed CC BY-SA 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+Modifications:3-second excerpt, resize/pad to640x480, recording/compression in Android, gray lead-in/tail. No depiction of a running dog is claimed.
+UI screenshots and technical QA text are separate materials; this attribution concerns the poodle footage.

@@ -1,0 +1,14 @@
+Android emulator API 35; times below are UTC (Z); capturedAt/detectedAt/savedAt are elapsed milliseconds since device boot.
+Only relevant generated QA lines, no user diagnostic upload.
+
+2026-11-22 02:03:42.916 Z WATCH_START mode=events detector=selected_animals zones=1
+2026-11-22 02:04:06.442 Z ANIMAL_RESULT capturedAt=171553 detectedAt=185124 latencyMs=13571 dog=true
+2026-11-22 02:04:06.661 Z ANIMAL_CLIP capturedAt=169218 detectedAt=185344 clipStartAt=161694 captureOffsetMs=7523
+2026-11-22 02:04:06.662 Z CLIP_START mode=events actualPreRollMs=22583 firstPositiveSampleAgeMs=13791 latestAnimalSampleAgeMs=13791
+2026-11-22 02:04:14.372 Z ANIMAL_RESULT capturedAt=173091 detectedAt=193054 latencyMs=19963 dog=true
+2026-11-22 02:04:25.517 Z ANIMAL_RESULT capturedAt=174341 detectedAt=204200 latencyMs=29859 dog=false
+2026-11-22 02:04:25.518 Z CLIP_STOP
+2026-11-22 02:04:25.688 Z ANIMAL_SAVED savedAt=204370 file=2026-11-22_02-04-06-541.mp4 historical=true
+2026-11-22 02:04:44.116 Z ANIMAL_RESULT capturedAt=209737 detectedAt=222798 latencyMs=13061 dog=false
+2026-11-22 02:04:52.139 Z ANIMAL_RESULT capturedAt=211301 detectedAt=230822 latencyMs=19521 dog=false
+2026-11-22 02:05:03.534 Z ANIMAL_RESULT capturedAt=212654 detectedAt=242217 latencyMs=29563 dog=false
