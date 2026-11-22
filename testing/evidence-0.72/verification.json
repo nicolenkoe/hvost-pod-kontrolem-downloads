@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "syntheticFixture": true,
+  "physicalDevice": false,
+  "animalAccuracyTested": false,
+  "nativeTransformer": true,
+  "resolution": [
+    640,
+    480
+  ],
+  "audioTrack": true,
+  "greenPixelsBeforeDuringAfter": [
+    0,
+    1528,
+    0
+  ],
+  "apkSha256": "dfa2ff7ba02dc337b2f4f716c46548b6fb6c226476042667c26b21825f07a731",
+  "nativeRun": 45040910976,
+  "artifact": 14761827162,
+  "originalWorkflowConclusion": "failed_missing_host_ffprobe_after_native_export",
+  "localReadback": "passed_with_ffmpeg",
+  "greenPixelBounds": [
+    128,
+    104,
+    448,
+    384
+  ],
+  "nativePlayerScreenshotVerified": false,
+  "exportFixtureOnly": true,
+  "notes": [
+    "Native player screenshot was white and is not proof of viewer appearance.",
+    "Overlay gestures/layout are covered by four independent Robolectric tests.",
+    "Physical dog recognition and physical Samsung not tested."
+  ]
+}
