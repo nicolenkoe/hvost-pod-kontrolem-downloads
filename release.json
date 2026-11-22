@@ -1,17 +1,17 @@
 {
-  "version": "0.70",
-  "versionCode": 70,
+  "version": "0.71",
+  "versionCode": 71,
   "minimumAndroid": "11",
   "abi": [
     "arm64-v8a"
   ],
-  "fileName": "HvostPodKontrolem-0.70.apk",
-  "bytes": 78389610,
-  "sha256": "4b69e648aa310fbf432b6bd4c2696c55eb9920cff209102371369506a586ec37",
-  "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.70.apk",
+  "fileName": "HvostPodKontrolem-0.71.apk",
+  "bytes": 78504298,
+  "sha256": "cfa9b7d02eec60ed08e823843af88e9039dd1fff59fdda58639ed3ff934c2052",
+  "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.71.apk",
   "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/versions/",
-  "guide": "assets/guide-0.70.mp4",
-  "audioGuide": "assets/guide-0.70.mp3",
+  "guide": "assets/guide-0.71.mp4",
+  "audioGuide": "assets/guide-0.71.mp3",
   "experimental": [
     "smart-zone",
     "bluetooth-servo"

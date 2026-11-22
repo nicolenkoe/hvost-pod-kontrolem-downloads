@@ -1,0 +1,84 @@
+{
+  "status": "passed_with_limitations",
+  "physicalDevice": false,
+  "device": "Pixel6 API35 emulator",
+  "captureByPhase": [
+    {
+      "name": "01-visible",
+      "freshSamples": 9,
+      "firstCaptureMs": 103348,
+      "lastCaptureMs": 114751,
+      "maxObservedGapMs": 2331,
+      "motionSeen": true
+    },
+    {
+      "name": "02-home",
+      "freshSamples": 28,
+      "firstCaptureMs": 130687,
+      "lastCaptureMs": 153632,
+      "maxObservedGapMs": 1336,
+      "motionSeen": true
+    },
+    {
+      "name": "03-system-settings",
+      "freshSamples": 19,
+      "firstCaptureMs": 173128,
+      "lastCaptureMs": 186270,
+      "maxObservedGapMs": 853,
+      "motionSeen": true
+    },
+    {
+      "name": "04-screen-off",
+      "freshSamples": 20,
+      "firstCaptureMs": 192780,
+      "lastCaptureMs": 209570,
+      "maxObservedGapMs": 2210,
+      "motionSeen": true
+    },
+    {
+      "name": "05-returned",
+      "freshSamples": 11,
+      "firstCaptureMs": 228115,
+      "lastCaptureMs": 240995,
+      "maxObservedGapMs": 1851,
+      "motionSeen": true
+    },
+    {
+      "name": "06-landscape-returned",
+      "freshSamples": 10,
+      "firstCaptureMs": 253568,
+      "lastCaptureMs": 263173,
+      "maxObservedGapMs": 1467,
+      "motionSeen": true
+    }
+  ],
+  "clips": [
+    {
+      "file": "2026-11-22_11-20-14-080.mp4",
+      "bytes": 23217618,
+      "sha256": "caa2602f4193ade77655744b1386e1693122b27e58acd1680918f7281b615452",
+      "durationSeconds": 189.573611,
+      "audioCodec": "aac",
+      "maxPacketGapSeconds": 1.4581329999999966,
+      "videoPackets": 2644,
+      "fullDecodePassed": true
+    }
+  ],
+  "notificationStopPassed": true,
+  "defaultMotionVerified": true,
+  "defaultAudioTrackVerified": true,
+  "nativePlayerVisuallyVerified": true,
+  "nativePlayerPositionSeconds": 53,
+  "nativePlayerPlayPauseAutomationPassed": false,
+  "originalAutomationStatus": "failed",
+  "originalAutomationFailure": "uiautomator could not capture continuously changing native-player hierarchy; XML file absent",
+  "audioSmoothnessVerified": false,
+  "notes": [
+    "No physical Samsung Fold or animal-recognition verification in this run.",
+    "Native player screenshot final.png displays motion clip at00:53/03:09 with Pause visible.",
+    "Full H264 and AAC decode completed independently with no errors.",
+    "Nonfatal AudioSink discontinuity warnings present; smooth audio/sync remains unproven."
+  ],
+  "sourceRun": "https://github.com/nicolenkoe/android-app-qa/actions/runs/45016472252",
+  "sourceArtifact": 14752525828
+}

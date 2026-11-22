@@ -1,0 +1,44 @@
+[
+  {
+    "name": "01-visible",
+    "startElapsedMs": 100030,
+    "endElapsedMs": 115940,
+    "otherApp": false,
+    "screenOff": false
+  },
+  {
+    "name": "02-home",
+    "startElapsedMs": 128510,
+    "endElapsedMs": 155510,
+    "otherApp": true,
+    "screenOff": false
+  },
+  {
+    "name": "03-system-settings",
+    "startElapsedMs": 170430,
+    "endElapsedMs": 188030,
+    "otherApp": true,
+    "screenOff": false
+  },
+  {
+    "name": "04-screen-off",
+    "startElapsedMs": 190340,
+    "endElapsedMs": 211080,
+    "otherApp": false,
+    "screenOff": true
+  },
+  {
+    "name": "05-returned",
+    "startElapsedMs": 225570,
+    "endElapsedMs": 242250,
+    "otherApp": false,
+    "screenOff": false
+  },
+  {
+    "name": "06-landscape-returned",
+    "startElapsedMs": 250900,
+    "endElapsedMs": 265640,
+    "otherApp": false,
+    "screenOff": false
+  }
+]

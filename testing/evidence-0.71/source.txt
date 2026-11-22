@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/nicolenkoe/hvost-pod-kontrolem-downloads/eb0d94490af9beef86d92a21fc0940810d179aa2/HvostPodKontrolem-0.71.apk
+cfa9b7d02eec60ed08e823843af88e9039dd1fff59fdda58639ed3ff934c2052
+versionCode=71

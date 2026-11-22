@@ -1,0 +1,3 @@
+Synthetic moving colored checkerboard generated locally, 640x480 at24fps.
+This tests native camera motion, encoder and foreground-service lifecycle; it does not test animal recognition.
+No app-private preferences, detector outputs or recording state are injected.

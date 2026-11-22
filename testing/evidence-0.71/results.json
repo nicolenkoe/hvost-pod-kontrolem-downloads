@@ -1,0 +1,58 @@
+{
+  "status": "failed",
+  "physicalDevice": false,
+  "device": "Pixel6 API35 emulator",
+  "stimulus": "Synthetic moving checkerboard via actual virtual camera, not animal-recognition evidence",
+  "captureByPhase": [
+    {
+      "name": "01-visible",
+      "freshSamples": 9,
+      "firstCaptureMs": 103348,
+      "lastCaptureMs": 114751,
+      "maxObservedGapMs": 2331,
+      "motionSeen": true
+    },
+    {
+      "name": "02-home",
+      "freshSamples": 28,
+      "firstCaptureMs": 130687,
+      "lastCaptureMs": 153632,
+      "maxObservedGapMs": 1336,
+      "motionSeen": true
+    },
+    {
+      "name": "03-system-settings",
+      "freshSamples": 19,
+      "firstCaptureMs": 173128,
+      "lastCaptureMs": 186270,
+      "maxObservedGapMs": 853,
+      "motionSeen": true
+    },
+    {
+      "name": "04-screen-off",
+      "freshSamples": 20,
+      "firstCaptureMs": 192780,
+      "lastCaptureMs": 209570,
+      "maxObservedGapMs": 2210,
+      "motionSeen": true
+    },
+    {
+      "name": "05-returned",
+      "freshSamples": 11,
+      "firstCaptureMs": 228115,
+      "lastCaptureMs": 240995,
+      "maxObservedGapMs": 1851,
+      "motionSeen": true
+    },
+    {
+      "name": "06-landscape-returned",
+      "freshSamples": 10,
+      "firstCaptureMs": 253568,
+      "lastCaptureMs": 263173,
+      "maxObservedGapMs": 1467,
+      "motionSeen": true
+    }
+  ],
+  "error": "Command '['adb', 'shell', 'cat', '/sdcard/hvost71-qa.xml']' returned non-zero exit status 1.",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/android-app-qa/android-app-qa/hvost71-background.py\", line 381, in run_native\n    tree = hierarchy(\"08-native-player\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/android-app-qa/android-app-qa/hvost71-background.py\", line 56, in hierarchy\n    data = shell(\"cat\", \"/sdcard/hvost71-qa.xml\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/android-app-qa/android-app-qa/hvost71-background.py\", line 35, in shell\n    return adb(\"shell\", *args, timeout=timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/android-app-qa/android-app-qa/hvost71-background.py\", line 31, in adb\n    return subprocess.check_output([\"adb\", *map(str, args)], stderr=subprocess.STDOUT, timeout=timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['adb', 'shell', 'cat', '/sdcard/hvost71-qa.xml']' returned non-zero exit status 1.\n"
+}
