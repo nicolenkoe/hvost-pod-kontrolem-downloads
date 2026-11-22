@@ -1,0 +1,40 @@
+{
+  "version": "0.76",
+  "tests": [
+    {
+      "suite": "ru.dogwatch.MonitoringEngine71Test",
+      "tests": 23,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.VoiceEntry76QaTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.EventCommandPlayerTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "finalTargetedTotal": 45,
+  "precedingRegressionBatch": {
+    "tests": 176,
+    "failures": 0,
+    "note": "Before final VOICE_GATE logging-only delta; final targeted batch below verifies resulting source."
+  },
+  "assembleRelease": "passed",
+  "lintRelease": "passed",
+  "physicalDeviceTested": false,
+  "native076Tested": false,
+  "native075Evidence": "native075-readback.json",
+  "native075Limitation": "Original native workflow FAILED video continuity; lifecycle and restart passed; max video gap4.310867s. This is not a native0.76 test.",
+  "animalModelChanged": false,
+  "falseHandDetectionFixed": false,
+  "voiceDelayDefault": true,
+  "voiceMinimumPresenceMs": 1000,
+  "voiceRequiresFreshFollowupFrame": true
+}

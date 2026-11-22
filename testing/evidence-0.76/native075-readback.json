@@ -1,0 +1,111 @@
+{
+  "status": "passed_with_limitations",
+  "sourceVersion": "0.75",
+  "sourceApkSha256": "88c459f861cd03d3e0bcb9400345fbd6ad67ae5226f9d960ac8aaba2379cc414",
+  "nativeRun": 45053244534,
+  "artifact": 14765569979,
+  "originalWorkflowConclusion": "failed_video_gap_over2s",
+  "backgroundLifecyclePassed": true,
+  "notificationStopPassed": true,
+  "restartAfterNotificationStopPassed": true,
+  "captureByPhase": [
+    {
+      "name": "01-visible",
+      "freshSamples": 8,
+      "firstCaptureMs": 137201,
+      "lastCaptureMs": 148986,
+      "maxObservedGapMs": 2339,
+      "motionSeen": true
+    },
+    {
+      "name": "02-home",
+      "freshSamples": 26,
+      "firstCaptureMs": 171044,
+      "lastCaptureMs": 190588,
+      "maxObservedGapMs": 1988,
+      "motionSeen": true
+    },
+    {
+      "name": "03-system-settings",
+      "freshSamples": 23,
+      "firstCaptureMs": 206375,
+      "lastCaptureMs": 221951,
+      "maxObservedGapMs": 888,
+      "motionSeen": true
+    },
+    {
+      "name": "04-screen-off",
+      "freshSamples": 26,
+      "firstCaptureMs": 228867,
+      "lastCaptureMs": 246522,
+      "maxObservedGapMs": 847,
+      "motionSeen": true
+    },
+    {
+      "name": "05-returned",
+      "freshSamples": 14,
+      "firstCaptureMs": 266652,
+      "lastCaptureMs": 285992,
+      "maxObservedGapMs": 1858,
+      "motionSeen": true
+    },
+    {
+      "name": "06-landscape-returned",
+      "freshSamples": 16,
+      "firstCaptureMs": 307937,
+      "lastCaptureMs": 323880,
+      "maxObservedGapMs": 1552,
+      "motionSeen": true
+    }
+  ],
+  "clips": [
+    {
+      "file": "2026-11-22_18-11-40-533.mp4",
+      "bytes": 20353119,
+      "sha256": "7e8639f0ab41326e0967490818fdba1cff8f0bda2747b64d6b1dab23f8643487",
+      "durationSeconds": 228.472167,
+      "streams": {
+        "video": "h264",
+        "audio": "aac"
+      },
+      "fullDecodePassed": true,
+      "maxVideoGapSeconds": 4.310867000000002,
+      "gapsOver2s": [
+        {
+          "from": 30.119167,
+          "to": 33.801833,
+          "seconds": 3.682666000000001
+        },
+        {
+          "from": 70.657433,
+          "to": 74.9683,
+          "seconds": 4.310867000000002
+        }
+      ]
+    },
+    {
+      "file": "2026-11-22_18-16-02-818.mp4",
+      "bytes": 800829,
+      "sha256": "dfdb73231f40395044add04b1218701fe36491d3d656d7fd4adfadb6983c7407",
+      "durationSeconds": 14.668122,
+      "streams": {
+        "video": "h264",
+        "audio": "aac"
+      },
+      "fullDecodePassed": true,
+      "maxVideoGapSeconds": 0.4555000000000007,
+      "gapsOver2s": []
+    }
+  ],
+  "videoContinuity2sPassed": false,
+  "physicalDeviceTested": false,
+  "animalAccuracyTested": false,
+  "nativePlayerTested": false,
+  "audioSmoothnessVerified": false,
+  "limitations": [
+    "Original workflow remains FAILED: actual video gaps exceed2s, max4.310867s.",
+    "First native run45051582648 stopped afterHome due codecmonitorcontention; clock/readinessdecoupling eliminated service stop in this rerun.",
+    "Preview-reconfiguration gap3.683s; larger gap correlatesGC/globalCPU, causality not proven.",
+    "Physical Samsung and voice/dog performance not proven by synthetic motion."
+  ]
+}
