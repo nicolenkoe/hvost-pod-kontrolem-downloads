@@ -1,0 +1,50 @@
+{
+  "version": "0.73",
+  "tests": [
+    {
+      "suite": "ru.dogwatch.ClipExport64Test",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.AnimalOverlayExport72QaTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.AnimalBoxes72Test",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.SettingsFlowTest",
+      "tests": 19,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.UpdatesProgress63Test",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.dogwatch.AnimalVisibility73QaTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "total": 44,
+  "assembleRelease": "passed",
+  "lintRelease": "passed",
+  "physicalDeviceTested": false,
+  "independentReview": "Five AnimalVisibility73QaTest cases; default/reset, autosave/recreation, nativeCanvas off/on, raw export/sidecar retention, narrow/landscape font1.3/1.5",
+  "earlierBatchNotes": [
+    "SettingsFlowTest fixture updated to seed explicit new visibility=false while asserting other preference preservation.",
+    "Unrelated update async await2s failed first batch during simultaneous voice generation, same test passed unchanged in final targeted batch."
+  ]
+}
