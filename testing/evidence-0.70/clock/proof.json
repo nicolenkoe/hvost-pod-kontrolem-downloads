@@ -1,0 +1,47 @@
+{
+  "version": "0.70",
+  "versionCode": 70,
+  "apkSha256": "4b69e648aa310fbf432b6bd4c2696c55eb9920cff209102371369506a586ec37",
+  "run": "https://github.com/nicolenkoe/android-app-qa/actions/runs/44976630192",
+  "artifactId": 14735513366,
+  "physicalDevice": false,
+  "device": "Pixel6 API35 emulator",
+  "onlyDogs": true,
+  "clipStartCount": 1,
+  "historyMissingCount": 0,
+  "dogPositiveLatencyMs": [
+    7814,
+    12684
+  ],
+  "modelScores": [
+    0.72,
+    0.76
+  ],
+  "captureClockDomain": "REALTIME",
+  "offsetUs": 0,
+  "cameraSensorRealtime": false,
+  "capturedAtMs": 144914,
+  "detectedAtMs": 152728,
+  "anchorAtMs": 143535,
+  "clipStartAtMs": 134629,
+  "captureOffsetMs": 8905,
+  "savedAtMs": 164780,
+  "clipDurationSeconds": 29.787667,
+  "visualPoodleSecondsApprox": [
+    9.0,
+    11.5
+  ],
+  "visualSamplingSeconds": 0.5,
+  "exactFiveSecondTrim": false,
+  "sourceVideoIsMovingPoodleInSinkNotRoomRun": true,
+  "personPhotoNegativeCreatesExtraClip": false,
+  "clipContainsNoPersonPhotoPhase": true,
+  "originalClipSha256": "d556cfdfa7d4561906117953a552e41399fe229f2e97b01cfbdce50e854d368a",
+  "limitations": [
+    "Actual emulator normal-clock regression only. Samsung long-suspend clock split is covered by unit tests, not reproduced on this emulator.",
+    "No physical Samsung phone attached.",
+    "Poodle seen for a short3second video excerpt; not a real room run.",
+    "Negative person phase uses a digitally translated photograph.",
+    "Pre-roll approximately9seconds, not exactly5."
+  ]
+}

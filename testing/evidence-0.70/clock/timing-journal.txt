@@ -1,0 +1,9 @@
+Android emulator actual encoder proof0.70; monotonic elapsed milliseconds, not wall-clock epoch.
+
+2026-11-22 02:38:21.111 Z WATCH_START mode=events detector=selected_animals zones=1
+2026-11-22 02:38:39.284 Z ANIMAL_RESULT capturedAt=144914 detectedAt=152728 latencyMs=7814 dog=true
+2026-11-22 02:38:39.419 Z ANIMAL_CLIP capturedAt=143535 detectedAt=152874 clipStartAt=134629 captureOffsetMs=8905 sensorRealtime=false clock=REALTIME offsetUs=0 capturedAt=143535 requestedPtsUs=143535000 sensorPtsUs=151687900 sensorCapturedAt=151762 encoderPtsUs=152503952 drainElapsedMs=152721 monotonicUs=152721763 requestedEntryAt=143535 mappedCapturePtsUs=143535000 desiredBoundaryPtsUs=138535000 heldFirstPtsUs=134629363 heldLastPtsUs=152503952 reason=available
+2026-11-22 02:38:39.419 Z CLIP_START mode=events actualPreRollMs=17874 firstPositiveSampleAgeMs=7960 latestAnimalSampleAgeMs=7960
+2026-11-22 02:38:45.498 Z ANIMAL_RESULT capturedAt=146269 detectedAt=158953 latencyMs=12684 dog=true
+2026-11-22 02:38:51.111 Z CLIP_STOP
+2026-11-22 02:38:51.326 Z ANIMAL_SAVED savedAt=164780 file=2026-11-22_02-38-39-388.mp4 historical=true

@@ -1,0 +1,525 @@
+{
+  "passed": true,
+  "versionCode": "70",
+  "device": "Pixel 6 emulator",
+  "api": 35,
+  "physical_device": false,
+  "cases": [
+    {
+      "mode": "cold-landscape",
+      "step": 1,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "previous": [
+        160,
+        870,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 1 / 4",
+          [
+            265,
+            101,
+            2137,
+            150
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 1
+    },
+    {
+      "mode": "cold-landscape",
+      "step": 2,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "previous": [
+        160,
+        870,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 2 / 4",
+          [
+            265,
+            101,
+            2137,
+            150
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 1
+    },
+    {
+      "mode": "cold-landscape",
+      "step": 3,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "previous": [
+        160,
+        870,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          723
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 3 / 4",
+          [
+            265,
+            101,
+            2137,
+            150
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 1
+    },
+    {
+      "mode": "cold-landscape",
+      "step": 4,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "previous": [
+        160,
+        870,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 4 / 4",
+          [
+            265,
+            101,
+            2137,
+            150
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 1
+    },
+    {
+      "mode": "after-rotation",
+      "step": 1,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "previous": [
+        160,
+        870,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 1 / 4",
+          [
+            265,
+            101,
+            2137,
+            150
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 1
+    },
+    {
+      "mode": "after-rotation",
+      "step": 2,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "previous": [
+        160,
+        870,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 2 / 4",
+          [
+            265,
+            101,
+            2137,
+            150
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 1
+    },
+    {
+      "mode": "after-rotation",
+      "step": 3,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "previous": [
+        160,
+        870,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          723
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 3 / 4",
+          [
+            265,
+            101,
+            2137,
+            150
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 1
+    },
+    {
+      "mode": "after-rotation",
+      "step": 4,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "previous": [
+        160,
+        870,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 4 / 4",
+          [
+            265,
+            101,
+            2137,
+            150
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 1
+    },
+    {
+      "mode": "large-font-landscape",
+      "step": 1,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        843
+      ],
+      "previous": [
+        160,
+        864,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        864,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          843
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 1 / 4",
+          [
+            265,
+            87,
+            2137,
+            164
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 2
+    },
+    {
+      "mode": "large-font-landscape",
+      "step": 2,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        843
+      ],
+      "previous": [
+        160,
+        864,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        864,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          843
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 2 / 4",
+          [
+            265,
+            87,
+            2137,
+            164
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 2
+    },
+    {
+      "mode": "large-font-landscape",
+      "step": 3,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        843
+      ],
+      "previous": [
+        160,
+        864,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        864,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          711
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 3 / 4",
+          [
+            265,
+            87,
+            2137,
+            164
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 2
+    },
+    {
+      "mode": "large-font-landscape",
+      "step": 4,
+      "viewport": [
+        1176,
+        200,
+        2368,
+        843
+      ],
+      "previous": [
+        160,
+        864,
+        1253,
+        996
+      ],
+      "next": [
+        1274,
+        864,
+        2368,
+        996
+      ],
+      "photo_bounds": [
+        [
+          160,
+          200,
+          1134,
+          843
+        ]
+      ],
+      "progress": [
+        [
+          "Знакомство · 4 / 4",
+          [
+            265,
+            87,
+            2137,
+            164
+          ]
+        ]
+      ],
+      "scroll_end_stable": true,
+      "scrolls_to_end": 2
+    }
+  ]
+}

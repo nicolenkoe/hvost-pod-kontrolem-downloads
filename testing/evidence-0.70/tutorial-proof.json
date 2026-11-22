@@ -1,0 +1,339 @@
+{
+  "version": "0.70",
+  "versionCode": 70,
+  "apkSha256": "4b69e648aa310fbf432b6bd4c2696c55eb9920cff209102371369506a586ec37",
+  "run": "https://github.com/nicolenkoe/android-app-qa/actions/runs/44976139001",
+  "artifactId": 14735484282,
+  "device": "Pixel6 Android35 emulator",
+  "physicalDevice": false,
+  "screenPx": [
+    2400,
+    1080
+  ],
+  "cases": [
+    {
+      "mode": "cold-landscape",
+      "step": 1,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "footer": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "scrolls": 1
+    },
+    {
+      "mode": "cold-landscape",
+      "step": 2,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "footer": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "scrolls": 1
+    },
+    {
+      "mode": "cold-landscape",
+      "step": 3,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          723
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "footer": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "scrolls": 1
+    },
+    {
+      "mode": "cold-landscape",
+      "step": 4,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "footer": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "scrolls": 1
+    },
+    {
+      "mode": "after-rotation",
+      "step": 1,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "footer": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "scrolls": 1
+    },
+    {
+      "mode": "after-rotation",
+      "step": 2,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "footer": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "scrolls": 1
+    },
+    {
+      "mode": "after-rotation",
+      "step": 3,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          723
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "footer": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "scrolls": 1
+    },
+    {
+      "mode": "after-rotation",
+      "step": 4,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          849
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        849
+      ],
+      "footer": [
+        1274,
+        870,
+        2368,
+        996
+      ],
+      "scrolls": 1
+    },
+    {
+      "mode": "large-font-landscape",
+      "step": 1,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          843
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        843
+      ],
+      "footer": [
+        1274,
+        864,
+        2368,
+        996
+      ],
+      "scrolls": 2
+    },
+    {
+      "mode": "large-font-landscape",
+      "step": 2,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          843
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        843
+      ],
+      "footer": [
+        1274,
+        864,
+        2368,
+        996
+      ],
+      "scrolls": 2
+    },
+    {
+      "mode": "large-font-landscape",
+      "step": 3,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          711
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        843
+      ],
+      "footer": [
+        1274,
+        864,
+        2368,
+        996
+      ],
+      "scrolls": 2
+    },
+    {
+      "mode": "large-font-landscape",
+      "step": 4,
+      "photoPinned": true,
+      "photoBounds": [
+        [
+          160,
+          200,
+          1134,
+          843
+        ]
+      ],
+      "viewport": [
+        1176,
+        200,
+        2368,
+        843
+      ],
+      "footer": [
+        1274,
+        864,
+        2368,
+        996
+      ],
+      "scrolls": 2
+    }
+  ],
+  "normalFontViewportHeightBeforePx": 480,
+  "normalFontViewportHeightAfterPx": 649,
+  "normalFontViewportHeightIncreasePercent": 35.2,
+  "imageAndTextNeverOverlapFooter": true,
+  "headerRowsBefore": 2,
+  "headerRowsAfter": 1,
+  "originalCapturesUnmodified": true,
+  "notes": [
+    "All four cold landscape steps, four independently rotated steps, four landscape steps at font1.5.",
+    "Screenshots are actual emulator captures; no physicalSamsung device tested.",
+    "The comparison images add external numbered labels only; source screenshots remain unchanged."
+  ]
+}

@@ -1,0 +1,4 @@
+Source: https://commons.wikimedia.org/wiki/File:Sink_swimming_exercise_during_coronavirus.webm
+Author: Rhododendrites
+License: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+Adaptation:3-second excerpt starting1second, resized/padded640x480, replayed through Android emulator virtual camera and recorded by APK0.70. App-recordedclip and derivedframes licensedCCBYSA4.0 forsourceimagery. Screenshot applicationUI remains its respective owner. No COCO phase included in publishedclip.
