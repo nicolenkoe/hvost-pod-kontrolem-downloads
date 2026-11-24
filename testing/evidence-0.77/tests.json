@@ -1,0 +1,134 @@
+{
+  "version": "0.77",
+  "total": 135,
+  "tests": [
+    {
+      "name": "ru.dogwatch.AnimalEventTimeline69Test",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.AnimalRecognitionRegressionTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.AnimalBoxes72Test",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.ScenarioDevice60Test",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.MonitoringEngine71Test",
+      "tests": 23,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.TailLabDetectorQaTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.ScenarioFlash64Test",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.AnimalProcedureTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.BackgroundStart75QaTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.BackgroundRecorder75QaTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.TailLab77QaTest",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.AnimalVisibility73QaTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.VoiceEntry76QaTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.EventCommandPlayerTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.CaptureBacklog69Test",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "assembleRelease": "passed",
+  "lintRelease": "passed",
+  "androidTestAssemble": "passed",
+  "physicalDeviceTested": false,
+  "nativeAndroidTested": true,
+  "model": {
+    "name": "EfficientDet-Lite2 INT8",
+    "runtime": "MediaPipe0.10.21",
+    "bytes": 7515971,
+    "sha256": "b3f50554cb0ea559e90328845f7d9ba4d13c8bff372914d24e06bc8bb72fa896",
+    "source": "Owner-provided TailLab0.1.0 commitcaa81318da62ad0ad0c74d224003276116088327"
+  },
+  "sourceArchiveSha256": "7840fd5fc9246da7fc6c361895023615d90c9feadff3bd8f96164c18d0797baf",
+  "recognitionAccuracyFullyFixed": false,
+  "privateReplaySummary": {
+    "runtime": "MediaPipe0.10.21 CPU,fullframe,each6thframe",
+    "invocationsAcrossThreeClipsAndFourRotations": 876,
+    "positivePhysicallyUprightDogFrames": 7,
+    "positiveFramesSampled": 84,
+    "negativePhysicallyUprightDogFrames": 0,
+    "negativeFramesSampled": 135,
+    "limitations": "Sampled annotated videos; positive poodle remains visible during long recognition gaps; no physical phone/LED proof. Do not treat candidate count as calibrated accuracy."
+  },
+  "logic": {
+    "freshFrameMaxAgeMs": 650,
+    "entryMaximumCaptureGapMs": 650,
+    "entryPositiveFrames": 2,
+    "resultTimeoutMs": 900,
+    "exitNegativeFrames": 2,
+    "exitMinimumCaptureSpanMs": 400,
+    "flashDepartureGraceMs": 2000,
+    "voiceDelayDefault": true,
+    "historicalPairVideoRecovery": true,
+    "polygonContactPreserved": true
+  },
+  "multiZoneFlashGraceRegression": true,
+  "nativeScope": "Exact final APK Android/JNI model smoke and6foreground/background capture phases; originalworkflowFAILED notificationStop automation. Restart/finalizedclipdecode/continuity notverified.",
+  "nativeEvidence": "android-readback.json"
+}
