@@ -1,0 +1,55 @@
+{
+  "version": "0.78",
+  "total": 44,
+  "tests": [
+    {
+      "name": "ru.dogwatch.UpdatesAuto55Test",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.VersionBadge78QaTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.UpdatesStable56Test",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.UpdatesForeground55Test",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.UpdatesProgress63Test",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "ru.dogwatch.UpdatesUi55Test",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "assembleRelease": "passed",
+  "lintRelease": "passed",
+  "nativeAndroidTested": false,
+  "physicalDeviceTested": false,
+  "uiChecks": "Robolectric layout/visibility280dp font200percent and640x320dp font150percent;caption10sp preserved; no scrolling/overflow. Two layout cases repeated in NATIVE graphics mode; resulting raster PNGs inspected and readable. Programmatic render, not physical Android.",
+  "independentQa": 11,
+  "scope": "Manual version-label update check; single updater owner, latest/new/error/cached-error, repetition, close/pause/reopen, unchangedcamera/watch. TailLabmodel and camera unchanged.",
+  "finalLayoutRepeat": {
+    "tests": 2,
+    "failures": 0,
+    "nativeGraphicsMode": true,
+    "appBinaryChanged": false
+  }
+}
