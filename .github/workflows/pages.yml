@@ -39,7 +39,8 @@ jobs:
           assert release['sha256']==feed['sha256'] and release['bytes']==feed['bytes']
           assert feed['parts']==[{'url':release['fileName'],'size':release['bytes']}]
           base='https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/'
-          for entry in catalog['releases']:assert entry['downloadUrl']==base+entry['fileName']
+          archive='https://raw.githubusercontent.com/nicolenkoe/hvost-pod-kontrolem-downloads/37d513e08d7828751d53d1c723658285a17ea480/'
+          for entry in catalog['releases']:assert entry['downloadUrl']==(base if entry['versionCode']==release['versionCode'] else archive)+entry['fileName']
           for p in root.rglob('*'):
             if '.git' in p.parts:continue
             assert p.suffix not in {'.java','.kt','.ino','.jks','.keystore'},p
@@ -50,7 +51,15 @@ jobs:
       - name: Prepare static files
         run: |
           mkdir -p /tmp/hvost-site
-          tar --exclude=.git --exclude=.github -cf - . | tar -xf - -C /tmp/hvost-site
+          tar --exclude=.git --exclude=.github --exclude='*.apk' -cf - . | tar -xf - -C /tmp/hvost-site
+          python3 - <<'PYSTAGE'
+          import pathlib,json,shutil
+          release=json.load(open('release.json'));target=pathlib.Path('/tmp/hvost-site')
+          shutil.copy2(release['fileName'],target/release['fileName'])
+          total=sum(p.stat().st_size for p in target.rglob('*') if p.is_file())
+          assert total < 1024**3, 'Pages site exceeds its 1GB limit'
+          print('Pages site bytes:',total)
+          PYSTAGE
       - uses: actions/upload-pages-artifact@v3
         id: pages_artifact
         with:

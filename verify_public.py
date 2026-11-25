@@ -17,7 +17,12 @@ def main():
  assert feed['sha256']==release['sha256'] and feed['bytes']==release['bytes']
  data=read(release['fileName']);assert len(data)==release['bytes'] and hashlib.sha256(data).hexdigest()==release['sha256']
  catalog=json.loads(read('versions.json'));assert catalog['latest']==release['versionCode']
- for entry in catalog['releases']:assert entry['downloadUrl']==BASE+entry['fileName']
+ archive='https://raw.githubusercontent.com/nicolenkoe/hvost-pod-kontrolem-downloads/37d513e08d7828751d53d1c723658285a17ea480/'
+ for entry in catalog['releases']:
+  expected=(BASE if entry['versionCode']==release['versionCode'] else archive)+entry['fileName']
+  assert entry['downloadUrl']==expected
+  if entry['versionCode']!=release['versionCode']:
+   with urllib.request.urlopen(urllib.request.Request(expected,method='HEAD'),timeout=30) as response:assert response.status==200
  for page in ['','testing/','versions/']:
   text=read(page).decode();assert 'Хвост' in text
   assert 'enduro-club-downloads/hvost-pod-kontrolem/' not in text
