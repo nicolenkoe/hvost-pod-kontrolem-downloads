@@ -14,6 +14,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -61,17 +62,31 @@ jobs:
         env:
           PAGES_ARTIFACT_ID: ${{ steps.pages_artifact.outputs.artifact_id }}
         with:
+          retries: 3
+          retry-exempt-status-codes: 400,401,403,422
           script: |
             const artifactId = process.env.PAGES_ARTIFACT_ID;
             if (!/^[0-9]+$/.test(artifactId || '')) throw new Error('Uploaded artifact ID missing');
             const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
             const params = {owner: context.repo.owner, repo: context.repo.repo};
             // Use the upload output directly: listing by name races and duplicates on reruns.
+            let stable = 0;
+            for (let attempt = 0; attempt < 30; attempt++) {
+              try {
+                const result = await github.rest.actions.getArtifact({...params, artifact_id: Number(artifactId), request: {timeout: 30000}});
+                stable = result.data.id === Number(artifactId) && !result.data.expired ? stable + 1 : 0;
+                if (stable >= 3) break;
+              } catch (error) { stable = 0; }
+              await wait(5000);
+            }
+            if (stable < 3) throw new Error('Uploaded Pages artifact is not consistently readable');
+            // Artifact metadata and the Pages deployment store become visible separately.
+            await wait(20000);
             const oidc = await core.getIDToken();
             let deployment;
             for (let attempt = 0; attempt < 12; attempt++) {
               try {
-                const response = await github.request('POST /repos/{owner}/{repo}/pages/deployments', {...params, artifact_id: Number(artifactId), pages_build_version: context.sha, oidc_token: oidc});
+                const response = await github.request('POST /repos/{owner}/{repo}/pages/deployments', {...params, artifact_id: Number(artifactId), pages_build_version: context.sha, oidc_token: oidc, request: {timeout: 30000}});
                 deployment = response.data;
                 break;
               } catch (error) {
@@ -82,11 +97,12 @@ jobs:
             }
             const deploymentId = deployment.id || deployment.status_url?.split('/').pop() || context.sha;
             core.setOutput('page_url', deployment.page_url || 'https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/');
-            for (let attempt = 0; attempt < 120; attempt++) {
-              const response = await github.request('GET /repos/{owner}/{repo}/pages/deployments/{deploymentId}', {...params, deploymentId});
+            const deadline = Date.now() + 600000;
+            for (let attempt = 0; Date.now() < deadline; attempt++) {
+              const response = await github.request('GET /repos/{owner}/{repo}/pages/deployments/{deploymentId}', {...params, deploymentId, request: {timeout: 30000}});
               const status = response.data.status;
               if (status === 'succeed') { core.info('Pages deployment succeeded'); return; }
-              if (['errored', 'failed', 'cancelled', 'deployment_failed', 'deployment_content_failed'].includes(status)) throw new Error('Pages deployment ' + status);
+              if (['errored', 'failed', 'cancelled', 'deployment_failed', 'deployment_content_failed', 'deployment_perms_error', 'deployment_cancelled', 'deployment_lost'].includes(status)) throw new Error('Pages deployment ' + status);
               await wait(5000);
             }
             throw new Error('Pages deployment timed out');
