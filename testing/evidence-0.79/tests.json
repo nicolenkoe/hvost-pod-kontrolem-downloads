@@ -1,0 +1,52 @@
+{
+  "version": "0.79",
+  "tests": 90,
+  "failures": 0,
+  "assembleRelease": "PASS",
+  "lintRelease": "PASS",
+  "classes": [
+    {
+      "name": "ru.dogwatch.AnimalRecognitionRegressionTest",
+      "tests": 5
+    },
+    {
+      "name": "ru.dogwatch.MonitoringEngine71Test",
+      "tests": 23
+    },
+    {
+      "name": "ru.dogwatch.TailLabDetectorQaTest",
+      "tests": 9
+    },
+    {
+      "name": "ru.dogwatch.AnimalLatency64Test",
+      "tests": 8
+    },
+    {
+      "name": "ru.dogwatch.TailLab77QaTest",
+      "tests": 18
+    },
+    {
+      "name": "ru.dogwatch.PoseAlignedInferenceTest",
+      "tests": 5
+    },
+    {
+      "name": "ru.dogwatch.ZoneContactTest",
+      "tests": 5
+    },
+    {
+      "name": "ru.dogwatch.YuvFramesTest",
+      "tests": 8
+    },
+    {
+      "name": "ru.dogwatch.TailLabParity79QaTest",
+      "tests": 9
+    }
+  ],
+  "baselineAndroidRun": 45582352255,
+  "baselineArtifact": 15006409818,
+  "baselineResult": "Direct RGB dog detections equal6/6; YUV decisions equal6/6, positive4/6 both; no recall improvement demonstrated by color conversion.",
+  "physicalDeviceTested": false,
+  "scope": "RGB parity, dog threshold, center-in-zone, cadence, motion and service regressions; no main layout changes.",
+  "candidateAndroidRun": 45583678361,
+  "candidateResult": "PASS; exact input pixels and dog detections equal6/6 vs original TailLab CameraX;8native crop/rotation/stride/scaling cases PASS; tiny-center accepted; low sensitivity threshold.30"
+}
