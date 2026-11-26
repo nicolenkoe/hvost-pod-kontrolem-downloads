@@ -1,0 +1,94 @@
+{
+  "originalOverlay80": {
+    "firstFreshDogBoxes": 2,
+    "outsideZoneGreen": true,
+    "firstFrameBeforeEventConfirmation": true,
+    "exactGreenColor": -16711936,
+    "sourceFresh650Ms": true,
+    "sourceTimeout900Ms": true,
+    "syntheticPolicyClock": true,
+    "physicalPhone": false
+  },
+  "geometry": {
+    "supported": true,
+    "nativeExecuted": true,
+    "passed": true,
+    "cases": [
+      {
+        "paddedInterleaved": false,
+        "rotation": 0,
+        "width": 4,
+        "height": 2,
+        "markerMappingPassed": true,
+        "bilinearDownscalePassed": true
+      },
+      {
+        "paddedInterleaved": false,
+        "rotation": 90,
+        "width": 2,
+        "height": 4,
+        "markerMappingPassed": true,
+        "bilinearDownscalePassed": true
+      },
+      {
+        "paddedInterleaved": false,
+        "rotation": 180,
+        "width": 4,
+        "height": 2,
+        "markerMappingPassed": true,
+        "bilinearDownscalePassed": true
+      },
+      {
+        "paddedInterleaved": false,
+        "rotation": 270,
+        "width": 2,
+        "height": 4,
+        "markerMappingPassed": true,
+        "bilinearDownscalePassed": true
+      },
+      {
+        "paddedInterleaved": true,
+        "rotation": 0,
+        "width": 4,
+        "height": 2,
+        "markerMappingPassed": true,
+        "bilinearDownscalePassed": true
+      },
+      {
+        "paddedInterleaved": true,
+        "rotation": 90,
+        "width": 2,
+        "height": 4,
+        "markerMappingPassed": true,
+        "bilinearDownscalePassed": true
+      },
+      {
+        "paddedInterleaved": true,
+        "rotation": 180,
+        "width": 4,
+        "height": 2,
+        "markerMappingPassed": true,
+        "bilinearDownscalePassed": true
+      },
+      {
+        "paddedInterleaved": true,
+        "rotation": 270,
+        "width": 2,
+        "height": 4,
+        "markerMappingPassed": true,
+        "bilinearDownscalePassed": true
+      }
+    ],
+    "callerPlanesPreserved": true,
+    "crop": [
+      2,
+      2,
+      6,
+      4
+    ]
+  },
+  "tailLabTinyCenterInZone": true,
+  "hvostTinyContact": true,
+  "tailLabDogThreshold": 0.3,
+  "hvostLowSensitivityDogThreshold": 0.30000001192092896
+}

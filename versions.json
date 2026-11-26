@@ -1,8 +1,39 @@
 {
   "schemaVersion": 1,
-  "latest": 79,
+  "latest": 80,
   "latestStable": null,
   "releases": [
+    {
+      "version": "0.80",
+      "versionCode": 80,
+      "minimumAndroid": "11",
+      "abi": [
+        "arm64-v8a"
+      ],
+      "fileName": "HvostPodKontrolem-0.80.apk",
+      "bytes": 100265735,
+      "sha256": "270352eaef15474d5559a74fba9be4dc6e3a330869a5003b4e95618f9a948f86",
+      "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.80.apk",
+      "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/versions/",
+      "guide": "assets/guide-0.80.mp4",
+      "audioGuide": "assets/guide-0.80.mp3",
+      "experimental": [
+        "smart-zone",
+        "bluetooth-servo"
+      ],
+      "channel": "testing",
+      "minSdk": 30,
+      "firmware": {
+        "version": "0.62",
+        "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/firmware/Hvost-SG90-0.62.zip",
+        "fileName": "firmware/Hvost-SG90-0.62-ESP32C3.bin",
+        "sha256": "a0b48c25a993d0ffc6f396e6f303d7d7e7f4a0e820a2d85112c98afae13773b5",
+        "chainGpio": 4,
+        "treatGpio": 5,
+        "pairingPin": "000000",
+        "compatibleApp": "0.61"
+      }
+    },
     {
       "version": "0.79",
       "versionCode": 79,
@@ -13,7 +44,7 @@
       "fileName": "HvostPodKontrolem-0.79.apk",
       "bytes": 100249351,
       "sha256": "43046359afbd742e00c9ca5be90500fd861566c7c10a8bbf1fa5258e2f47e077",
-      "downloadUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/HvostPodKontrolem-0.79.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/nicolenkoe/hvost-pod-kontrolem-downloads/ee4fa3f990fa809c9b602d4ac7329256c53ed3db/HvostPodKontrolem-0.79.apk",
       "releaseUrl": "https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/versions/",
       "guide": "assets/guide-0.79.mp4",
       "audioGuide": "assets/guide-0.79.mp3",

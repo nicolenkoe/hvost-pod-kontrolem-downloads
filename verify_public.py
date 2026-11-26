@@ -1,5 +1,5 @@
 """Read back the separately published Hvost release without credentials."""
-import pathlib,urllib.request,json,hashlib,time,datetime
+import pathlib,urllib.request,json,hashlib,time,datetime,re
 ROOT=pathlib.Path(__file__).resolve().parent
 BASE='https://nicolenkoe.github.io/hvost-pod-kontrolem-downloads/'
 def read(name):
@@ -17,11 +17,11 @@ def main():
  assert feed['sha256']==release['sha256'] and feed['bytes']==release['bytes']
  data=read(release['fileName']);assert len(data)==release['bytes'] and hashlib.sha256(data).hexdigest()==release['sha256']
  catalog=json.loads(read('versions.json'));assert catalog['latest']==release['versionCode']
- archive='https://raw.githubusercontent.com/nicolenkoe/hvost-pod-kontrolem-downloads/37d513e08d7828751d53d1c723658285a17ea480/'
  for entry in catalog['releases']:
-  expected=(BASE if entry['versionCode']==release['versionCode'] else archive)+entry['fileName']
-  assert entry['downloadUrl']==expected
-  if entry['versionCode']!=release['versionCode']:
+  expected=entry['downloadUrl']
+  if entry['versionCode']==release['versionCode']:assert expected==BASE+entry['fileName']
+  else:
+   assert re.fullmatch(r'https://raw[.]githubusercontent[.]com/nicolenkoe/hvost-pod-kontrolem-downloads/[0-9a-f]{40}/'+re.escape(entry['fileName']),expected)
    with urllib.request.urlopen(urllib.request.Request(expected,method='HEAD'),timeout=30) as response:assert response.status==200
  for page in ['','testing/','versions/']:
   text=read(page).decode();assert 'Хвост' in text

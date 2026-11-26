@@ -1,0 +1,21 @@
+{
+  "reference": "TailLab0.1.0",
+  "sourceCommit": "caa81318da62ad0ad0c74d224003276116088327",
+  "files": {
+    "DogModel.java": {
+      "sourceSha256": "93773969fb83fb9dfaa6d16b73b6fcb4a3955a8ed683d2090f183da199af5f4e",
+      "vendoredSha256": "7ef2d03f9cfed8072e633987600273afdd5a1a4d634c17d2a5814cbde0af5e4a",
+      "changes": "package declaration only"
+    },
+    "Presence.java": {
+      "sourceSha256": "09abd9ee6aa54f198f9c6f7a20574def938b40924c4b167dd79ba2addbfe7364",
+      "vendoredSha256": "b87a747c228a5fb0f15b29bda57b44f3c63067ce3a0e50994fda3536c905d316",
+      "changes": "package declaration only"
+    },
+    "Zone.java": {
+      "sourceSha256": "8bf7419b27333c8c070a67c721b21f2ea8cfc6b22118328c53c1cb5f1f078929",
+      "vendoredSha256": "b810b61cc9b8a4f4908873b13e8db8e93596abad8daaef33577a8c2336a3bf2b",
+      "changes": "package declaration only"
+    }
+  }
+}

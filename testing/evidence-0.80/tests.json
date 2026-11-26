@@ -1,0 +1,70 @@
+{
+  "version": "0.80",
+  "tests": 119,
+  "failures": 0,
+  "assembleRelease": "PASS",
+  "lintRelease": "PASS",
+  "physicalPhone": false,
+  "classes": [
+    {
+      "name": "ru.dogwatch.BackCameraReference80Test",
+      "tests": 3
+    },
+    {
+      "name": "ru.dogwatch.AnimalRecognitionRegressionTest",
+      "tests": 5
+    },
+    {
+      "name": "ru.dogwatch.AnimalBoxes72Test",
+      "tests": 7
+    },
+    {
+      "name": "ru.dogwatch.MonitoringEngine71Test",
+      "tests": 23
+    },
+    {
+      "name": "ru.dogwatch.BackCameraCatalogTest",
+      "tests": 2
+    },
+    {
+      "name": "ru.dogwatch.TailLabDetectorQaTest",
+      "tests": 9
+    },
+    {
+      "name": "ru.dogwatch.AnimalProcedureTest",
+      "tests": 5
+    },
+    {
+      "name": "ru.dogwatch.AnimalLatency64Test",
+      "tests": 8
+    },
+    {
+      "name": "ru.dogwatch.TailLab77QaTest",
+      "tests": 18
+    },
+    {
+      "name": "ru.dogwatch.OriginalDogBoxes80Test",
+      "tests": 5
+    },
+    {
+      "name": "ru.dogwatch.PoseAlignedInferenceTest",
+      "tests": 5
+    },
+    {
+      "name": "ru.dogwatch.AnimalVisibility73QaTest",
+      "tests": 5
+    },
+    {
+      "name": "ru.dogwatch.YuvFramesTest",
+      "tests": 8
+    },
+    {
+      "name": "ru.dogwatch.TailLabGreenBoxes80Test",
+      "tests": 16
+    }
+  ],
+  "nativeAndroidRun": 45739200758,
+  "nativeArtifact": 15079703865,
+  "nativeConclusion": "PASS exact model/input parity6cases, geometry8cases, actualCanvasoriginalgreen and synthetic source650/900 firstframe policy",
+  "physicalDeviceTested": false
+}
